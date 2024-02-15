@@ -1,0 +1,54 @@
+.header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem; /* Adjust the font size as needed */
+  font-weight: 700; /* Bold font weight */
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: blue;
+  color: white;
+}
+
+.task-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-item {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(243, 6, 6);
+  color: white;
+}
